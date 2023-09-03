@@ -79,6 +79,7 @@ body{
 .input{
     height: 19%;
     width: 40%;
+    font-size: 20px;
 }
 
 .btn{
@@ -157,6 +158,8 @@ body{
         font-size: 25px;
     }
 
+  
+
 }
 
 
@@ -202,6 +205,10 @@ body{
     }
     .btn{
         font-size: 10px;
+    }
+
+    .input{
+        font-size: 15px;
     }
     
 }
@@ -249,6 +256,10 @@ body{
 
     .btn{
         font-size: 8px;
+    }
+
+    .input{
+        font-size: 14px;
     }
     
 }
