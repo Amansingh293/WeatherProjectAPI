@@ -31,6 +31,7 @@ btnElement.addEventListener('click' , function(e){
 
     if( inputElement.value === ''){
         alert('Please Enter a Valid Location');
+        return;
     }
 
     setTimeout(() => {
