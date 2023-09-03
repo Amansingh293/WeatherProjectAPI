@@ -50,7 +50,7 @@ btnElement.addEventListener('click' , function(e){
 async function fetchNUpdateUI(cityName){
 
     try{
-        let url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`;
+        let url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`;
         let response = await fetch(url);
         let json = await response.json();
         // console.log(response);
