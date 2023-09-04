@@ -56,7 +56,7 @@ h1,h2{
 
 .item{
     height: 85%;
-    width: 22%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -139,12 +139,12 @@ h1,h2{
 }
 
 .condition{
-    font-size: 300%;
+    font-size: 160%;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px;
-    padding: 5%;
+    padding: 2%;
     /* width: 40%; */
-    font-size:xx-large;
+    /* font-size:xx-large; */
 }
 
 .temperature{
