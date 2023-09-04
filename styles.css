@@ -134,7 +134,7 @@ h1,h2{
 }
 
 .country{
-    font-size: 300%;
+    font-size: 210%;
     margin-top: 0;
 }
 
@@ -153,9 +153,7 @@ h1,h2{
     box-shadow: 2px 2px 2px 2px;
     box-sizing: border-box;
 }
-.infoContainer{
-   
-}
+
 @media screen and (max-width: 1200px) {
     
     .tempElementC{
