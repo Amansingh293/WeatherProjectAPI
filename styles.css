@@ -165,7 +165,13 @@ h1,h2{
     .tempElementF{
         font-size: 30px;
     }
-
+    .item{
+        width: 27%;
+    }
+    .header{
+        padding: 2%;
+        font-size: large;
+    }
     .city{
         font-size: 30px;
     }
@@ -204,7 +210,7 @@ h1,h2{
     .tempElementC{
         font-size:18px;
     }
-
+   
     .tempElementF{
         font-size: 18px;
     }
