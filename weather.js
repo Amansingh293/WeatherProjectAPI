@@ -2,7 +2,7 @@
 const btnElement = document.querySelector('.btn');
 
 const inputElement = document.querySelector('.input');
-console.log(btnElement);
+// console.log(btnElement);
 const displayTitle = document.querySelector('h2');
 
 const apiKey = '00f06710edcf484f936125141230309';
@@ -27,16 +27,19 @@ btnElement.addEventListener('click' , function(e){
 
     btnElement.classList.add('btnEffects');
 
-    console.log(inputElement.value);
+    // console.log(inputElement.value);
+
+    setTimeout(() => {
+        btnElement.classList.remove('btnEffects');
+        // console.log("yes");
+     }, 200);
 
     if( inputElement.value === ''){
         alert('Please Enter a Valid Location');
         return;
     }
 
-    setTimeout(() => {
-       btnElement.classList.remove('btnEffects') 
-    }, 200);
+   
 
     const city = inputElement.value;
 
@@ -54,7 +57,7 @@ async function fetchNUpdateUI(cityName){
         let url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`;
         let response = await fetch(url);
         let json = await response.json();
-        console.log(json);
+        // console.log(json);
 
         if(response.status === 400){
             alert(`${json.error.message}`);
