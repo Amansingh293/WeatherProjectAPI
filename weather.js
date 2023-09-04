@@ -24,14 +24,23 @@ const image = document.querySelector('.imgLink');
 const currentDate = document.querySelector('.date');
 
 btnElement.addEventListener('click' , function(e){
+    initiator(e);
+});
+
+document.addEventListener('keypress' , function(e){
+
+    if( e.key === 'Enter'){
+        initiator(e);
+    }
+    // console.log(e.key);
+});
+
+function initiator(obj){
 
     btnElement.classList.add('btnEffects');
 
-    // console.log(inputElement.value);
-
     setTimeout(() => {
-        btnElement.classList.remove('btnEffects');
-        // console.log("yes");
+        btnElement.classList.remove('btnEffects'); 
      }, 200);
 
     if( inputElement.value === ''){
@@ -39,18 +48,13 @@ btnElement.addEventListener('click' , function(e){
         return;
     }
 
-   
-
     const city = inputElement.value;
 
     fetchNUpdateUI(city);
 
-    // console.log(city);
-
     inputElement.value = '';
-});
 
-
+}
 async function fetchNUpdateUI(cityName){
 
     try{

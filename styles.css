@@ -50,7 +50,7 @@ h1,h2{
     height: 60vh;
     background-color: #232b2b  ;
     box-sizing: border-box;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -197,10 +197,7 @@ h1,h2{
 
 
 @media screen and (max-width: 700px) {
-    .container{
-        flex-direction: column;
-    }
-
+    
     html{
         margin: 0;
     }
@@ -249,8 +246,17 @@ h1,h2{
 @media screen and (max-width: 550px) {
     .container{
         flex-direction: column;
+        gap: 5%;
+        height: 70vh;
+        padding: 5% 0% 5% 0%;
     }
-
+    .header{
+        font-size: small;
+    }
+    .item{
+        width: 30%;
+        /* height: 90%; */
+    }
     html{
         margin: 0;
     }
@@ -293,6 +299,10 @@ h1,h2{
 
     .input{
         font-size: 14px;
+    }
+
+    .footer{
+        height: 10%;
     }
     
 }
