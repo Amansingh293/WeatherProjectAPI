@@ -1,314 +1,302 @@
-
-body{
-    margin: 0;
-    color: white;
-    font-family: cursive;
-    text-align: center;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
+body {
+  margin: 0;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }
 
-h1,h2{
-    margin: 2%;
+h1,
+h2 {
+  margin: 2%;
 }
-.item>h1{
-    box-sizing: border-box;
-    box-shadow: 2px 2px 2px 2px lightcyan;
-    padding: 3% 5% 3% 5%;
+.item > h1 {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px lightcyan;
+  padding: 3% 5% 3% 5%;
 }
-.item>h2{
-    box-sizing: border-box;
-    box-shadow: 2px 2px 2px 2px lightcyan;
-    padding: 3% 5% 3% 5%;
+.item > h2 {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px lightcyan;
+  padding: 3% 5% 3% 5%;
 }
-.item img{
-    box-sizing: border-box;
-    box-shadow: 2px 2px 2px 2px lightcyan;
-    padding: 3%;
-}
-
-.mainContainer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.header{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1a2421 ;
-    box-sizing: border-box;
-    height: 20vh;
-    /* flex-wrap: wrap; */
-}
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 60vh;
-    background-color: #232b2b  ;
-    box-sizing: border-box;
-    /* flex-wrap: wrap; */
-
+.item img {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px lightcyan;
+  padding: 3%;
 }
 
-.item{
-    height: 85%;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items:center;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px;
-    box-sizing: border-box;
-    /* flex-wrap: wrap; */
-
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-.item:hover{
-    box-shadow: 4px 4px 4px 4px;
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1a2421;
+  box-sizing: border-box;
+  height: 20vh;
+  /* flex-wrap: wrap; */
 }
-.footer{
-    background-color: #1a2421;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  background-color: #232b2b;
+  box-sizing: border-box;
+  /* flex-wrap: wrap; */
 }
 
-
-.imgLink{
-    border: 2px solid black;
-    border-radius: 10px;
+.item {
+  height: 85%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+  box-sizing: border-box;
+  /* flex-wrap: wrap; */
 }
-.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+.item:hover {
+  box-shadow: 4px 4px 4px 4px;
 }
-.input{
-    height: 19%;
-    width: 40%;
-    font-size: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: aliceblue;
-    padding: 0.2%;
-    text-align: center;
-}
-
-.btn{
-    height: 25%;
-    width: 10%;
-    margin-left: 5%;
-    border: 2px solid black;
-    background-color: #40e0d0;
-    border-radius: 10px;
+.footer {
+  background-color: #1a2421;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-.btnEffects{
-    box-shadow: 2px 2px 2px 2px;
-    background-color: #00827f ;
+.imgLink {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.input {
+  height: 19%;
+  width: 40%;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 0.2%;
+  text-align: center;
 }
 
-.tempElementC{
-    font-size: 300%;
+.btn {
+  height: 25%;
+  width: 10%;
+  margin-left: 5%;
+  border: 2px solid black;
+  background-color: #40e0d0;
+  border-radius: 10px;
 }
 
-.tempElementF{
-    font-size: 300%;
+.btnEffects {
+  box-shadow: 2px 2px 2px 2px;
+  background-color: #00827f;
 }
 
-.city{
-    box-sizing: border-box;
-    box-shadow: 2px 2px 2px 2px;
-    padding: 5%;
-    /* width: 40%; */
-    font-size:xx-large;
+.tempElementC {
+  font-size: 300%;
 }
 
-.country{
-    font-size: 210%;
-    margin-top: 0;
+.tempElementF {
+  font-size: 300%;
 }
 
-.condition{
-    font-size: 160%;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 2px 2px;
-    padding: 2%;
-    /* width: 40%; */
-    /* font-size:xx-large; */
+.city {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 5%;
+  /* width: 40%; */
+  font-size: xx-large;
 }
 
-.temperature{
-    font-size: 40px;
-    padding: 5%;
-    box-shadow: 2px 2px 2px 2px;
-    box-sizing: border-box;
+.country {
+  font-size: 210%;
+  margin-top: 0;
+}
+
+.condition {
+  font-size: 160%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 2%;
+  /* width: 40%; */
+  /* font-size:xx-large; */
+}
+
+.temperature {
+  font-size: 40px;
+  padding: 5%;
+  box-shadow: 2px 2px 2px 2px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1200px) {
-    
-    .tempElementC{
-        font-size:30px;
-    }
+  .tempElementC {
+    font-size: 30px;
+  }
 
-    .tempElementF{
-        font-size: 30px;
-    }
-    .item{
-        width: 27%;
-    }
-    .header{
-        padding: 2%;
-        font-size: large;
-    }
-    .city{
-        font-size: 30px;
-    }
+  .tempElementF {
+    font-size: 30px;
+  }
+  .item {
+    width: 27%;
+  }
+  .header {
+    padding: 2%;
+    font-size: large;
+  }
+  .city {
+    font-size: 30px;
+  }
 
-    .country{
-        font-size: 30px;
-        margin-top: 0;
-    }
+  .country {
+    font-size: 30px;
+    margin-top: 0;
+  }
 
-    .condition{
-        font-size: 30px;
-    }
+  .condition {
+    font-size: 30px;
+  }
 
-    .temperature{
-        font-size: 25px;
-        text-align: center;
-    }
-    .time{
-        font-size: 25px;
-    }
+  .temperature {
+    font-size: 25px;
+    text-align: center;
+  }
+  .time {
+    font-size: 25px;
+  }
 
-    .date{
-        font-size: 25px;
-    }
-
-  
-
+  .date {
+    font-size: 25px;
+  }
 }
 
-
 @media screen and (max-width: 700px) {
-    
-    html{
-        margin: 0;
-    }
-    .tempElementC{
-        font-size:18px;
-    }
-   
-    .tempElementF{
-        font-size: 18px;
-    }
+  html {
+    margin: 0;
+  }
+  .tempElementC {
+    font-size: 18px;
+  }
 
-    .city{
-        font-size: 18px;
-    }
+  .tempElementF {
+    font-size: 18px;
+  }
 
-    .country{
-        font-size: 18px;
-        margin-top: 0;
-    }
+  .city {
+    font-size: 18px;
+  }
 
-    .condition{
-        font-size: 18px;
-    }
+  .country {
+    font-size: 18px;
+    margin-top: 0;
+  }
 
-    .temperature{
-        font-size: 18px;
-        text-align: center;
-    }
-    .time{
-        font-size: 18px;
-    }
+  .condition {
+    font-size: 18px;
+  }
 
-    .date{
-        font-size: 18px;
-    }
-    .btn{
-        font-size: 10px;
-    }
+  .temperature {
+    font-size: 18px;
+    text-align: center;
+  }
+  .time {
+    font-size: 18px;
+  }
 
-    .input{
-        font-size: 15px;
-    }
-    
+  .date {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+
+  .input {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .container{
-        flex-direction: column;
-        gap: 5%;
-        height: 70vh;
-        padding: 5% 0% 5% 0%;
-    }
-    .header{
-        font-size: small;
-    }
-    .item{
-        width: 30%;
-        /* height: 90%; */
-    }
-    html{
-        margin: 0;
-    }
-    .tempElementC{
-        font-size:14px;
-    }
+  .container {
+    flex-direction: column;
+    gap: 5%;
+    height: 70vh;
+    padding: 5% 0% 5% 0%;
+  }
+  .header {
+    font-size: small;
+  }
+  .item {
+    width: 30%;
+    /* height: 90%; */
+  }
+  html {
+    margin: 0;
+  }
+  .tempElementC {
+    font-size: 14px;
+  }
 
-    .tempElementF{
-        font-size: 14px;
-    }
+  .tempElementF {
+    font-size: 14px;
+  }
 
-    .city{
-        font-size: 14px;
-    }
+  .city {
+    font-size: 14px;
+  }
 
-    .country{
-        font-size: 14px;
-        margin-top: 0;
-    }
+  .country {
+    font-size: 14px;
+    margin-top: 0;
+  }
 
-    .condition{
-        font-size: 14px;
-    }
+  .condition {
+    font-size: 14px;
+  }
 
-    .temperature{
-        font-size: 14px;
-        text-align: center;
-    }
-    .time{
-        font-size: 14px;
-    }
+  .temperature {
+    font-size: 14px;
+    text-align: center;
+  }
+  .time {
+    font-size: 14px;
+  }
 
-    .date{
-        font-size: 14px;
-    }
+  .date {
+    font-size: 14px;
+  }
 
-    .btn{
-        font-size: 8px;
-    }
+  .btn {
+    font-size: 8px;
+  }
 
-    .input{
-        font-size: 14px;
-    }
+  .input {
+    font-size: 14px;
+  }
 
-    .footer{
-        height: 10%;
-    }
-    
+  .footer {
+    height: 10vh;
+  }
 }
