@@ -8,7 +8,7 @@ body {
   width: 100vw;
 }
 
-h1,
+/* h1,
 h2 {
   margin: 2%;
 }
@@ -26,7 +26,7 @@ h2 {
   box-sizing: border-box;
   box-shadow: 2px 2px 2px 2px lightcyan;
   padding: 3%;
-}
+} */
 
 .mainContainer {
   display: flex;
@@ -64,7 +64,9 @@ h2 {
   border-radius: 10px;
   box-shadow: 2px 2px 2px 2px;
   box-sizing: border-box;
-  /* flex-wrap: wrap; */
+  background-color: aliceblue;
+  color: black;
+  font-size: larger;
 }
 .item:hover {
   box-shadow: 4px 4px 4px 4px;
@@ -124,10 +126,6 @@ h2 {
 }
 
 .city {
-  box-sizing: border-box;
-  box-shadow: 2px 2px 2px 2px;
-  padding: 5%;
-  /* width: 40%; */
   font-size: xx-large;
 }
 
@@ -138,19 +136,11 @@ h2 {
 
 .condition {
   font-size: 160%;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 2px 2px;
-  padding: 2%;
-  /* width: 40%; */
-  /* font-size:xx-large; */
 }
 
 .temperature {
   font-size: 40px;
-  padding: 5%;
-  box-shadow: 2px 2px 2px 2px;
-  box-sizing: border-box;
-}
+} 
 
 @media screen and (max-width: 1200px) {
   .tempElementC {
